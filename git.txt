@@ -1,0 +1,23 @@
+		
+	Git and GitHub
+	
+
+
+		Install git on localpc/laptop 
+		configure user and email 
+		create code on git bash and push to the remote repo
+		
+
+
+	
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tassdaq/winrepo.git
+git push -u origin main
+		
+
+git config --global user.name "tassdaq"
+git config --global user.email "tassdaq@gmail.com"
